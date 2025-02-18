@@ -9,7 +9,7 @@ int main(void)
 {
 	char reverseAlphabet = 'z';
 
-	while (reverseAlphabet > 'a')
+	while (reverseAlphabet >= 'a')
 		putchar(reverseAlphabet--);
 	putchar('\n');
 
