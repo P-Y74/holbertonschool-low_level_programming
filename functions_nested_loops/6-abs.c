@@ -3,7 +3,7 @@
 
 /**
  * _abs - Compute the absolute value of an integer
- * @int: int to compare
+ * @n: int to compare
  *
  * Return: 0
  */
@@ -14,8 +14,12 @@ int _abs(int n)
 	{
 		return (-n);
 	}
+	else if (n > 0)
+	{
+		return (n);
+	}
 	else
 	{
-		return (1);
+		return (0);
 	}
 }
