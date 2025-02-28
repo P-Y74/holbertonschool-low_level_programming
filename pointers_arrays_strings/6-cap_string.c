@@ -2,8 +2,10 @@
 #include "main.h"
 
 /**
- * *cap_string - Capitalizes all words of a string
+ * separator - Manage separator
+ * @c: separators
  *
+ * Return: c
  */
 int separator(char c)
 {
@@ -12,6 +14,12 @@ int separator(char c)
 		c == ')' || c == '{' || c == '}');
 }
 
+/**
+ * *cap_string - Capitalizes all words of a string
+ * @string: - String to convert
+ *
+ * Return: temp
+ */
 char *cap_string(char *string)
 {
 	char *temp = string;
