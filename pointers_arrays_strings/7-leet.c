@@ -22,7 +22,6 @@ char *leet(char *string)
 			if (lowLetter[i] == *string || uppLetter[i] == *string)
 			{
 				*string = number[i] + '0';
-				string++;
 				i++;
 			}
 		}
