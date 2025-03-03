@@ -10,15 +10,28 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	char length = 0;
+	unsigned int i = 0;
 
-	while (*s++)
+	while (*s)
 	{
-		if (*accept != *s)
+		int found = 0;
+		char *temp = accept;
+
+		while (*temp)
 		{
-			s++;
+			if (*s == *temp)
+			{
+				found = 1;
+				break;
+			}
+			temp++;
 		}
-		length++;
+		if (!found)
+		{
+			break;
+		}
+		i++;
+		s++;
 	}
-	return (length - 1);
+	return (i);
 }
