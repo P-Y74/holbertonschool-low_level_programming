@@ -33,4 +33,5 @@ main.c
 # Ignorer tous les fichiers exécutables, quelle que soit leur extension
 */*
 !*/*.c  # (Cette ligne est optionnelle, elle permet d'éviter de ne pas ignorer les .c)
+
 more_functions_nested_loops/3-print_numbers.c
