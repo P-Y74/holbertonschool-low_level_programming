@@ -1,0 +1,22 @@
+# Ignorer les fichiers .c spécifiques (comme main.c ou tout fichier .c)
+main.c
+
+# Ignorer les fichiers exécutables créés par gcc (par défaut, les exécutables sans extension)
+*.*
+
+# Ignorer le dossier .vscode/ et ses fichiers de configuration
+.vscode/
+
+# Ignorer les fichiers de sauvegarde de l'éditeur (ex : fichiers de sauvegarde automatiques)
+*~ 
+*.bak
+
+# Ignorer les fichiers générés par le compilateur GCC (ex : fichiers objets .o)
+*.o
+*.out
+*.a
+*.so
+
+# Ignorer les fichiers de log générés par les tests ou débogage
+*.log
+
