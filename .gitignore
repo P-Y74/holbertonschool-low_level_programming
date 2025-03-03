@@ -1,4 +1,4 @@
-# Ignorer les fichiers .c spécifiques (comme main.c ou tout fichier .c)
+# Ignore les fichiers .c spécifiques (comme main.c ou tout fichier .c)
 main.c
 
 # Ignorer les fichiers exécutables créés par gcc (par défaut, les exécutables sans extension)
@@ -30,8 +30,12 @@ main.c
 # Ignorer les fichiers de log générés par les tests ou débogage
 *.log
 
-# Ignorer tous les fichiers exécutables, quelle que soit leur extension
-*/*
-!*/*.c  # (Cette ligne est optionnelle, elle permet d'éviter de ne pas ignorer les .c)
+# Ignore les exécutables générés, mais garde les fichiers .c créés par toi
+# Cette règle ignore tous les fichiers exécutables générés par gcc
+*.out
+*.a
+*.exe
 
-more_functions_nested_loops/3-print_numbers.c
+# Ignorer les fichiers exécutables sans extension (comme les fichiers ELF)
+*
+!/*.c  # Ne pas ignorer les fichiers .c
