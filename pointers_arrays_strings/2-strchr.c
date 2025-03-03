@@ -6,7 +6,7 @@
  * @s: String
  * @c: First occurence to return
  *
- * Return: NULL
+ * Return: \0
  */
 char *_strchr(char *s, char c)
 {
@@ -18,5 +18,5 @@ char *_strchr(char *s, char c)
 		}
 		s++;
 	}
-	return (NULL);
+	return ('\0');
 }
