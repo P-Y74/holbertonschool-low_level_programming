@@ -6,7 +6,7 @@
  * @s: String
  * @c: First occurence to return
  *
- * Return: \0
+ * Return: NULL
  */
 char *_strchr(char *s, char c)
 {
@@ -17,6 +17,10 @@ char *_strchr(char *s, char c)
 			return (s);
 		}
 		s++;
+	}
+	if (*s == '\0')
+	{
+		return (s);
 	}
 	return (NULL);
 }
