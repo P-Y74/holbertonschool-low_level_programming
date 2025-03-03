@@ -38,4 +38,4 @@ main.c
 
 # Ignorer les fichiers exécutables sans extension (comme les fichiers ELF)
 *
-!/*.c  # Ne pas ignorer les fichiers .c
+!*.c  # Ne pas ignorer les fichiers .c
