@@ -4,19 +4,32 @@ main.c
 # Ignorer les fichiers exécutables créés par gcc (par défaut, les exécutables sans extension)
 *.*
 
-# Ignorer le dossier .vscode/ et ses fichiers de configuration
-.vscode/
-
-# Ignorer les fichiers de sauvegarde de l'éditeur (ex : fichiers de sauvegarde automatiques)
-*~ 
-*.bak
-
-# Ignorer les fichiers générés par le compilateur GCC (ex : fichiers objets .o)
+# Ignorer les fichiers objets générés par GCC
 *.o
+*.obj
+
+# Ignorer les fichiers de sortie générés par gcc
 *.out
 *.a
 *.so
+*.exe
+
+# Ignorer les fichiers de configuration de VSCode
+.vscode/
+
+# Ignorer les fichiers de sauvegarde de l'éditeur (ex : fichiers de sauvegarde automatiques)
+*~
+*.bak
+
+# Ignorer les fichiers générés par le compilateur lors de l'assemblage
+*.i
+*.ii
+*.s
+*.d
 
 # Ignorer les fichiers de log générés par les tests ou débogage
 *.log
 
+# Ignorer tous les fichiers exécutables, quelle que soit leur extension
+*/*
+!*/*.c  # (Cette ligne est optionnelle, elle permet d'éviter de ne pas ignorer les .c)
