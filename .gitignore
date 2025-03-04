@@ -1,9 +1,14 @@
+# Ne pas ignorer README.md
+!README.md
+
+# Ignorer main.c spécifiquement
+main.c
+
+# Ne pas ignorer les fichiers source .c (sauf main.c)
+!*.c
+
 # Ignorer tous les fichiers par défaut
 *
-
-# Ne pas ignorer les fichiers source .c, sauf main.c
-!*.c
-main.c
 
 # Ignorer les fichiers objets générés par GCC
 *.o
