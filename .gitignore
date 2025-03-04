@@ -6,6 +6,7 @@ main.c
 
 # Ne pas ignorer les fichiers source .c (sauf main.c)
 !*.c
+!*.h
 
 # Ignorer tous les fichiers par défaut
 *
