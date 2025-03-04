@@ -1,25 +1,19 @@
-# Ignore les fichiers .c spécifiques (comme main.c ou tout fichier .c)
-main.c
+# Ignorer tous les fichiers par défaut
+*
 
-# Ignorer les fichiers exécutables créés par gcc (par défaut, les exécutables sans extension)
-*.*
+# Ne pas ignorer les fichiers source .c, sauf main.c
+!*.c
+main.c
 
 # Ignorer les fichiers objets générés par GCC
 *.o
 *.obj
 
-# Ignorer les fichiers de sortie générés par gcc
+# Ignorer les fichiers de sortie générés par GCC
 *.out
 *.a
 *.so
 *.exe
-
-# Ignorer les fichiers de configuration de VSCode
-.vscode/
-
-# Ignorer les fichiers de sauvegarde de l'éditeur (ex : fichiers de sauvegarde automatiques)
-*~
-*.bak
 
 # Ignorer les fichiers générés par le compilateur lors de l'assemblage
 *.i
@@ -27,17 +21,12 @@ main.c
 *.s
 *.d
 
-# Ignorer les fichiers de log générés par les tests ou débogage
+# Ignorer les fichiers de configuration de VSCode
+.vscode/
+
+# Ignorer les fichiers de sauvegarde de l'éditeur
+*~
+*.bak
+
+# Ignorer les fichiers de log générés par les tests ou le débogage
 *.log
-
-# Ignore les exécutables générés, mais garde les fichiers .c créés par toi
-# Cette règle ignore tous les fichiers exécutables générés par gcc
-*.out
-*.a
-*.exe
-
-# Ignorer les fichiers exécutables sans extension (comme les fichiers ELF)
-*
-
-# Ne pas ignorer les fichiers .c
-!*.c
