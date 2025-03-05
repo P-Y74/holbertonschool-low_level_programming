@@ -2,13 +2,12 @@
 
 /**
  * main - Program that prints all arguments it receives
- * @argc: Number of command-line arguments (unused)
+ * @argc: Number of command-line arguments
  * @argv: Array of commande-line arguments
  *
  * Return: 0
  */
-int main(__attribute__((unused)) int argc,
-	 char *argv[])
+int main(int argc, char *argv[])
 {
 	int i;
 
