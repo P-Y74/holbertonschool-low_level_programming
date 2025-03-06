@@ -15,7 +15,7 @@ int main(void)
 	int i;
 
 	printf("%ld, ", num1Low);
-	printf("%ld, ", num2High);
+	printf("%ld, ", num2Low);
 
 	for (i = 3; i <= 98; i++)
 	{
