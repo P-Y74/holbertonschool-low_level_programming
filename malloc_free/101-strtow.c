@@ -32,12 +32,12 @@ char **strtow(char *str)
 
 	if (str == NULL || str[0] == '\0')
 		return (NULL);
-
 	for (i = 0; i < len; i++)
 		if ((str[i] != ' ' && str[i] != '\t') &&
 		    (i == 0 || str[i - 1] == ' ' || str[i - 1] == '\t'))
 			count++;
-
+	if (count == 0)
+		return (NULL);
 	split = malloc(sizeof(char *) * (count + 1));
 	if (split == NULL)
 		return (NULL);
