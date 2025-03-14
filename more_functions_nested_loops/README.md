@@ -8,11 +8,11 @@ This project continues to explore the C programming language, with a focus on **
 ## 📚 Resources
 To successfully complete this project, make sure to read and watch the following materials:
 
-- [Nested while loops](https://example-link.com)
-- [C - Functions](https://example-link.com)
-- [Learning to Program in C (Part 06) (stop at 14:00)](https://www.youtube.com/watch?v=example)
-- [What is the purpose of a function prototype?](https://example-link.com)
-- [C - Header Files (stop before the “Once-Only Headers” paragraph)](https://example-link.com)
+- [Nested while loops](https://intranet.alxswe.com/concepts/62)
+- [C - Functions](https://intranet.alxswe.com/concepts/50)
+- [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=Gt_iJuov4-o) *(stop at 14:00)*
+- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/function-prototype-in-c/)
+- [C - Header Files](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Header-Files) *(stop before the “Once-Only Headers” paragraph)*
 
 ---
 
@@ -54,3 +54,29 @@ By the end of this project, you should be able to explain to anyone, without the
 ### More Info
 
 - You do not have to understand **call by reference (address)**, **stack**, **static variables**, **recursions**, or **arrays** yet.
+
+---
+
+## 📂 Project Files
+
+| File                       | Description                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------|
+| `0-isupper.c`               | Function that checks if a character is an uppercase letter.                                           |
+| `1-isdigit.c`               | Function that checks if a character is a digit (0-9).                                                  |
+| `10-print_triangle.c`       | Function that prints a right-angled triangle made of asterisks (`*`).                                 |
+| `2-mul.c`                   | Function that multiplies two integers and returns the result.                                         |
+| `3-print_numbers.c`         | Function that prints the numbers from 0 to 9.                                                         |
+| `4-print_most_numbers.c`    | Function that prints numbers from 0 to 9, excluding 2 and 4.                                          |
+| `5-more_numbers.c`          | Function that prints numbers from 0 to 14, 10 times, each on a new line.                             |
+| `6-print_line.c`            | Function that draws a straight line of underscores (`_`) in the terminal.                             |
+| `7-print_diagonal.c`        | Function that draws a diagonal line of backslashes (`\`) in the terminal.                             |
+| `8-print_square.c`          | Function that prints a square made of asterisks (`*`) with the specified size.                       |
+| `9-fizz_buzz.c`             | Program that prints numbers from 1 to 100, replacing multiples of 3 with "Fizz" and 5 with "Buzz".     |
+| `_putchar.c`                | Function that prints a character to the terminal.                                                     |
+| `main.h`                    | Header file containing the function prototypes for all the functions in the project.                |
+
+---
+
+## 👤 Author
+👨‍💻 **[P-Y74](https://github.com/P-Y74)** - Holberton School Student
+
