@@ -12,16 +12,16 @@ This project introduces the basics of C programming, focusing on **variables**, 
 ## 📚 Resources
 To successfully complete this project, make sure to read and watch the following materials:
 
-- **Everything you need to know to start with C.pdf** *(You do not have to learn everything in there yet, but make sure you read it entirely first and make sure you understand the slides: “comments”, “Data types | Integer types”, “Declaration”, “Characters”, “Arithmetic operators”, “Variables assignments”, “Comparisons”, “Logical operators”, “if, if…else”, “while loops”)*
-- Keywords and identifiers
-- [integers](https://www.geeksforgeeks.org/integer-types-in-c/)
-- [Arithmetic Operators in C](https://www.geeksforgeeks.org/arithmetic-operators-in-c/)
-- [If statements in C](https://www.geeksforgeeks.org/if-else-in-c/)
-- [if…else statement](https://www.geeksforgeeks.org/if-else-in-c/)
-- [Relational operators](https://www.geeksforgeeks.org/relational-operators-in-c/)
-- [Logical operators](https://www.geeksforgeeks.org/logical-operators-in-c/)
-- [while loop in C](https://www.geeksforgeeks.org/while-loop-in-c/)
-- [While loop](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
+- **Everything you need to know to start with C.pdf** *(Holberton School property)*
+- [Keywords and identifiers](https://publications.gbdirect.co.uk//c_book/chapter2/keywords_and_identifiers.html)
+- [integers](https://publications.gbdirect.co.uk//c_book/chapter2/integral_types.html)
+- [Arithmetic Operators in C](https://www.tutorialspoint.com/cprogramming/c_arithmetic_operators.htm)
+- [If statements in C](https://www.cprogramming.com/tutorial/c/lesson2.html)
+- [if…else statement](https://www.tutorialspoint.com/cprogramming/if_else_statement_in_c.htm)
+- [Relational operators](https://www.tutorialspoint.com/cprogramming/c_relational_operators.htm)
+- [Logical operators](https://www.fresh2refresh.com/c-programming/c-operators-expressions/c-logical-operators/)
+- [while loop in C](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
+- [While loop](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
 
 ### man or help:
 - `ascii` *(You do not need to learn about scanf, getc, getchar, EOF, EXIT_SUCCESS, time, rand, srand, RAND_MAX, for loops, do...while loops, functions.)*
