@@ -22,6 +22,10 @@ To successfully complete this project, make sure to read and watch the following
 - [C - Pointers](https://www.tutorialspoint.com/cprogramming/c_pointers.htm)
 - [C - Strings](https://www.tutorialspoint.com/cprogramming/c_strings.htm)
 - [Memory Layout](https://aticleworld.com/memory-layout-of-c-program/)
+- [C - Pointer to pointer](https://www.tutorialspoint.com/cprogramming/c_pointer_to_pointer.htm)
+- [C - Pointer to pointer with example](https://beginnersbook.com/2014/01/c-pointer-to-pointer/)
+- [Multi-dimensional Arrays in C](https://www.tutorialspoint.com/cprogramming/c_multi_dimensional_arrays.htm)
+- [Two dimensional (2D) arrays in C programming with example](https://beginnersbook.com/2014/01/2d-arrays-in-c-example/)
 
 ---
 
