@@ -24,9 +24,9 @@ int _strlen(const char *s)
  */
 int main(void)
 {
-	const char *message = "and that piece of art is useful\"- Dora Korpar, 2015 - 10 - 19 \n";
+	char *m = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
 
-	write(2, message, _strlen(message));
+	write(2, m, _strlen(m));
 
 	return (1);
 }
