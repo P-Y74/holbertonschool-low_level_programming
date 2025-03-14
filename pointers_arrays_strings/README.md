@@ -58,39 +58,36 @@ You do not need to learn about **pointers to functions**, **pointers to pointers
 
 ## 📂 Project Files
 
-## 📂 Project Files
-
 | File                       | Description                                                                                           |
 |----------------------------|-------------------------------------------------------------------------------------------------------|
-| `0-memset.c`               | Create function that fills memory with a constant byte.                                                |
-| `0-reset_to_98.c`          | Function that takes a pointer to an int as parameter and updates the value it points to 98.            |
-| `0-strcat.c`               | Create function that concatenates two strings.                                                        |
-| `1-memcpy.c`               | Create function that copies a memory area.                                                            |
-| `1-strncat.c`              | Create function that concatenates two strings that will use n bytes.                                  |
-| `1-swap.c`                 | Function that swaps the values of two integers.                                                       |
-| `100-atoi.c`               | Function that converts a string to an integer.                                                        |
-| `2-strchr.c`               | Function that locates a character in a string.                                                        |
-| `2-strlen.c`               | Function that returns the length of a string.                                                         |
-| `2-strncpy.c`              | Function that copies a string like `strncpy`.                                                          |
-| `3-puts.c`                 | Function that prints a string, followed by a new line, to stdout.                                     |
-| `3-strcmp.c`               | Function that compares two strings.                                                                   |
-| `3-strspn.c`               | Function that gets the length of a prefix substring.                                                  |
-| `4-print_rev.c`            | Function that prints a string, in reverse.                                                            |
-| `4-rev_array.c`           | Function that reverses the content of an array of integers.                                           |
-| `4-strpbrk.c`              | Function that searches a string for any of a set of bytes.                                             |
-| `5-rev_string.c`          | Function that reverses a string.                                                                     |
-| `5-string_toupper.c`      | Function that changes all lowercase letters of a string to uppercase.                                |
-| `5-strstr.c`               | Function that locates a substring.                                                                   |
-| `6-cap_string.c`          | Function that capitalizes all words of a string.                                                     |
-| `6-puts2.c`                | Function that prints every other character of a string.                                               |
-| `7-leet.c`                 | Function that encodes a string into 1337.                                                             |
-| `7-print_chessboard.c`    | Function that prints the chessboard.                                                                  |
-| `7-puts_half.c`           | Function that prints half of a string.                                                                |
-| `8-print_array.c`         | Function that prints n elements of an array of integers.                                              |
-| `8-print_diagsums.c`      | Function that prints the sum of the two diagonals of a square matrix.                               |
-| `9-strcpy.c`               | Function that copies the string pointed to by `src`, including the null byte.                         |
-| `main.h`                   | Update main.h.                                                                                        |
-
+| `0-memset.c`               | Fills memory with a constant byte.                                                                     |
+| `0-reset_to_98.c`          | Updates the value of an integer to 98 using a pointer.                                                 |
+| `0-strcat.c`               | Concatenates two strings.                                                                             |
+| `1-memcpy.c`               | Copies a memory area from source to destination.                                                      |
+| `1-strncat.c`              | Concatenates two strings using `n` bytes.                                                              |
+| `1-swap.c`                 | Swaps the values of two integers.                                                                     |
+| `100-atoi.c`               | Converts a string to an integer.                                                                      |
+| `2-strchr.c`               | Locates a character in a string.                                                                     |
+| `2-strlen.c`               | Returns the length of a string.                                                                       |
+| `2-strncpy.c`              | Copies a string up to `n` characters.                                                                 |
+| `3-puts.c`                 | Prints a string followed by a new line to stdout.                                                     |
+| `3-strcmp.c`               | Compares two strings.                                                                                 |
+| `3-strspn.c`               | Gets the length of a prefix substring in a string.                                                    |
+| `4-print_rev.c`            | Prints a string in reverse.                                                                           |
+| `4-rev_array.c`           | Reverses the content of an array of integers.                                                         |
+| `4-strpbrk.c`              | Searches a string for any of a set of bytes.                                                          |
+| `5-rev_string.c`          | Reverses a string.                                                                                   |
+| `5-string_toupper.c`      | Converts all lowercase letters of a string to uppercase.                                              |
+| `5-strstr.c`               | Locates a substring within a string.                                                                  |
+| `6-cap_string.c`          | Capitalizes all words of a string.                                                                   |
+| `6-puts2.c`                | Prints every other character of a string.                                                             |
+| `7-leet.c`                 | Encodes a string in leetspeak (1337).                                                                  |
+| `7-print_chessboard.c`    | Prints a chessboard.                                                                                 |
+| `7-puts_half.c`           | Prints the second half of a string.                                                                   |
+| `8-print_array.c`         | Prints `n` elements of an array of integers.                                                           |
+| `8-print_diagsums.c`      | Prints the sum of the two diagonals of a square matrix.                                               |
+| `9-strcpy.c`               | Copies the string from `src` to `dest`, including the null byte.                                      |
+| `main.h`                   | Header file containing function prototypes.                                                          |
 
 ---
 
