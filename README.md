@@ -12,32 +12,32 @@ Welcome to the **holbertonschool-low_level_programming** repository! This reposi
 ## 📖 Table of Contents
 
 📌 **Fundamentals**
-- [C - Hello, World](#c---hello-world)
-- [C - Variables, if, else, while](#c---variables-if-else-while)
-- [C - Functions, nested loops](#c---functions-nested-loops)
-- [C - More functions, more nested loops](#c---more-functions-more-nested-loops)
+- [C - Hello, World](#c---hello-world-)
+- [C - Variables, if, else, while](#c---variables-if-else-while-)
+- [C - Functions, nested loops](#c---functions-nested-loops-)
+- [C - More functions, more nested loops](#c---more-functions-more-nested-loops-)
 
 📌 **Pointers & Memory Management**
-- [C - Pointers, arrays and strings](#c---pointers-arrays-and-strings)
-- [C - More pointers, arrays and strings](#c---more-pointers-arrays-and-strings)
-- [C - Even more pointers, arrays and strings](#c---even-more-pointers-arrays-and-strings)
-- [C - Recursion](#c---recursion)
-- [C - argc, argv](#c---argc-argv)
-- [C - Malloc, free](#c---malloc-free)
-- [C - More malloc, free](#c---more-malloc-free)
+- [C - Pointers, arrays and strings](#c---pointers-arrays-and-strings-)
+- [C - More pointers, arrays and strings](#c---more-pointers-arrays-and-strings-)
+- [C - Even more pointers, arrays and strings](#c---even-more-pointers-arrays-and-strings-)
+- [C - Recursion](#c---recursion-)
+- [C - argc, argv](#c---argc-argv-)
+- [C - Malloc, free](#c---malloc-free-)
+- [C - More malloc, free](#c---more-malloc-free-)
 
 📌 **Advanced Topics**
-- [C - Structures, typedef](#c---structures-typedef)
-- [C - Function pointers](#c---function-pointers)
-- [C - Variadic functions](#c---variadic-functions)
-- [C - Printf (Group Project)](#c---printf-group-project)
-- [C - Singly linked lists](#c---singly-linked-lists)
-- [C - Doubly linked lists](#c---doubly-linked-lists)
-- [C - Bit manipulation](#c---bit-manipulation)
-- [C - File I/O](#c---file-io)
-- [C - Binary Trees](#c---binary-trees)
-- [C - Sorting algorithms & Big O](#c---sorting-algorithms-big-o)
-- [C - Simple Shell (Group Project)](#c---simple-shell-group-project)
+- [C - Structures, typedef](#c---structures-typedef-)
+- [C - Function pointers](#c---function-pointers-)
+- [C - Variadic functions](#c---variadic-functions-)
+- [C - Printf (Group Project)](#c---printf-group-project-)
+- [C - Singly linked lists](#c---singly-linked-lists-)
+- [C - Doubly linked lists](#c---doubly-linked-lists-)
+- [C - Bit manipulation](#c---bit-manipulation-)
+- [C - File I/O](#c---file-io-)
+- [C - Binary Trees](#c---binary-trees-)
+- [C - Sorting algorithms & Big O](#c---sorting-algorithms--big-o-)
+- [C - Simple Shell (Group Project)](#c---simple-shell-group-project-)
 
 ---
 
@@ -136,3 +136,5 @@ This repository is for educational purposes as part of the Holberton School curr
 
 ## 👤 Author
 👨‍💻 **[P-Y74](https://github.com/P-Y74)** - Holberton School Student
+
+
