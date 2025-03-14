@@ -12,12 +12,15 @@ This project focuses on understanding **nested loops**, **functions**, and **hea
 ## 📚 Resources
 Read or watch the following materials to understand the key concepts:
 
-- Nested while loops
-- C - Functions
-- Learning to Program in C (Part 06) *(stop at 14:00)*
-- What is a function prototype? *(Read only the “Function prototype paragraph”)*
-- What is the purpose of a function prototype?
-- C - Header Files *(stop before the “Once-Only Headers” paragraph)*
+## 📚 Resources
+
+- **[Nested while loops](https://www.youtube.com/watch?v=4OnBa6mId0M)** – Introduction to nested loops.
+- **[C - Functions](https://www.youtube.com/watch?v=1yoM6nYQFq4)** – Learn about functions in C.
+- **[Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=drFXRS2VGdo)** – Watch until 14:00 for an explanation of functions.
+- **[What is a function prototype?](https://www.geeksforgeeks.org/function-prototype-in-c/)** – Explanation of function prototypes in C.
+- **[What is the purpose of a function prototype?](https://www.tutorialspoint.com/cprogramming/c_functions.htm)** – Understanding the role of a function prototype.
+- **[C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)** – A look at header files in C (stop before “Once-Only Headers”).
+
 
 ---
 
