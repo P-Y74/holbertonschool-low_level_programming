@@ -35,19 +35,19 @@ You may need to use the following commands:
 By the end of this project, you should be able to explain the following concepts:
 
 ### General
-✅ Why **C programming** is a powerful language.
-✅ Who invented **C** and its history.
-✅ Who are **Dennis Ritchie**, **Brian Kernighan**, and **Linus Torvalds**.
-✅ What happens when you compile a program using `gcc main.c`.
-✅ Understanding the **entry point** of a C program.
-✅ The role of the `main` function.
-✅ Printing text using `printf`, `puts`, and `putchar`.
-✅ Using the unary operator `sizeof` to get the size of a data type.
-✅ Compiling a program with `gcc`.
-✅ The default output filename when compiling with `gcc`.
-✅ The **official C coding style** and how to check your code with `betty-style`.
-✅ Finding the right **header files** for standard library functions.
-✅ How the `main` function affects the **return value** of a program.
+✅ Why **C programming** is a powerful language.  
+✅ Who invented **C** and its history.  
+✅ Who are **Dennis Ritchie**, **Brian Kernighan**, and **Linus Torvalds**.  
+✅ What happens when you compile a program using `gcc main.c`.  
+✅ Understanding the **entry point** of a C program.  
+✅ The role of the `main` function.  
+✅ Printing text using `printf`, `puts`, and `putchar`.  
+✅ Using the unary operator `sizeof` to get the size of a data type.  
+✅ Compiling a program with `gcc`.  
+✅ The default output filename when compiling with `gcc`.  
+✅ The **official C coding style** and how to check your code with `betty-style`.  
+✅ Finding the right **header files** for standard library functions.  
+✅ How the `main` function affects the **return value** of a program.  
 
 ---
 
