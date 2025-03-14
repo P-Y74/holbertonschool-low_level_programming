@@ -45,7 +45,7 @@ By the end of this project, you should be able to explain to anyone, without the
 
 ### General
 - Allowed editors: `vi`, `vim`, `emacs`
-- - Compilation on **Ubuntu 20.04 LTS** using:
+- Compilation on **Ubuntu 20.04 LTS** using:
   ```sh
   gcc -Wall -Werror -Wextra -pedantic -std=gnu89
   ```
