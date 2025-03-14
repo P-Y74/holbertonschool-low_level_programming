@@ -14,11 +14,11 @@ Read or watch the following materials to understand the key concepts:
 
 ## 📚 Resources
 
-- **[Nested while loops](https://www.youtube.com/watch?v=4OnBa6mId0M)** – Introduction to nested loops.
-- **[C - Functions](https://www.youtube.com/watch?v=1yoM6nYQFq4)** – Learn about functions in C.
-- **[Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=drFXRS2VGdo)** – Watch until 14:00 for an explanation of functions.
-- **[What is a function prototype?](https://www.geeksforgeeks.org/function-prototype-in-c/)** – Explanation of function prototypes in C.
-- **[What is the purpose of a function prototype?](https://www.tutorialspoint.com/cprogramming/c_functions.htm)** – Understanding the role of a function prototype.
+- **[Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)** – Introduction to nested loops.
+- **[C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)** – Learn about functions in C.
+- **[Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=qMlnFwYdqIw)** – Watch until 14:00 for an explanation of functions.
+- **[What is a function prototype?](https://www.programiz.com/c-programming/c-user-defined-functions#:~:text=A%20function%20prototype%20is%20simply,be%20used%20in%20the%20program.)** – Explanation of function prototypes in C.
+- **[What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)** – Understanding the role of a function prototype.
 - **[C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)** – A look at header files in C (stop before “Once-Only Headers”).
 
 
