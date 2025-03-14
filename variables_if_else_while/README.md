@@ -59,3 +59,27 @@ By the end of this project, you should be able to explain the following concepts
 - No **compilation errors or warnings** are allowed.
 - The use of `system()` is **not allowed**.
 - Code must follow **Betty Coding Style**.
+
+---
+
+## 📂 Project Files
+
+| File                     | Description                                                                                     |
+|--------------------------|-------------------------------------------------------------------------------------------------|
+| `0-positive_or_negative.c` | Determines whether a random number is positive or negative.                                      |
+| `1-last_digit.c`          | Prints the last digit of a random number.                                                      |
+| `2-print_alphabet.c`      | Prints the alphabet in lowercase.                                                                |
+| `3-print_alphabets.c`     | Prints the alphabet in both lowercase and uppercase.                                            |
+| `4-print_numbers.c`       | Prints all single digit numbers of base 10 starting from 0.                                      |
+| `5-print_numbers.c`       | Prints all single digit numbers of base 10 starting from 0, excluding 2 and 4.                  |
+| `6-print_most_numbers.c`  | Prints all single digit numbers except for 2 and 4.                                             |
+| `7-print_some_numbers.c`  | Prints all numbers from 0 to 9 except for 3 and 5.                                                |
+| `8-print_numbers.c`       | Prints all numbers from 0 to 9 in ascending order.                                               |
+| `9-times_table.c`         | Prints the 9 times table, starting with 0.                                                      |
+| `10-add.c`                | Adds two integers and returns the result.                                                       |
+| `11-print_to_98.c`        | Prints all natural numbers from n to 98, followed by a new line.                                |
+
+---
+
+## 👤 Author
+👨‍💻 **[P-Y74](https://github.com/P-Y74)** - Holberton School Student
