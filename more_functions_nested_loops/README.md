@@ -12,11 +12,11 @@ This project continues to explore the C programming language, with a focus on **
 ## 📚 Resources
 To successfully complete this project, make sure to read and watch the following materials:
 
-- Nested while loops
-- C - Functions
-- Learning to Program in C (Part 06)
-- What is the purpose of a function prototype?
-- C - Header Files
+- [Nested while loops](https://www.youtube.com/watch?v=Z3iGeQ1gIss)
+- [C - Functions](https://www.tutorialspoint.com/cprogramming/c_functions.htm)
+- [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=qMlnFwYdqIw)
+- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/what-is-the-purpose-of-a-function-prototype/)
+- [C - Header Files](https://www.tutorialspoint.com/cprogramming/c_header_files.htm)
 
 ---
 
