@@ -43,7 +43,71 @@ Welcome to the **holbertonschool-low_level_programming** repository! This reposi
 
 ## 🔍 Concepts Overview
 
-Each topic includes exercises and real-world applications. Click on any topic in the **Table of Contents** for more details.
+### C - Hello, World 🌍
+Introduction to C programming, compilation process, and first program.
+
+### C - Variables, if, else, while 🔢
+Using variables, conditional statements, and loops.
+
+### C - Functions, nested loops 🔄
+Understanding functions, their scope, and nested loops.
+
+### C - More functions, more nested loops 🔂
+Advanced function usage and deeper loop nesting.
+
+### C - Pointers, arrays and strings 🎯
+Basics of pointers, arrays, and string manipulation.
+
+### C - More pointers, arrays and strings 🔗
+Pointer arithmetic, multi-dimensional arrays, and memory management.
+
+### C - Even more pointers, arrays and strings 🚀
+Complex pointer operations and string handling techniques.
+
+### C - Recursion 🔁
+Implementing recursive functions and understanding stack behavior.
+
+### C - argc, argv 📜
+Handling command-line arguments.
+
+### C - Malloc, free 💾
+Dynamic memory allocation and deallocation.
+
+### C - More malloc, free ⚡
+Advanced dynamic memory handling techniques.
+
+### C - Structures, typedef 🏗️
+Defining and using custom data types with `struct` and `typedef`.
+
+### C - Function pointers 🎛️
+Understanding and using pointers to functions.
+
+### C - Variadic functions 🎤
+Handling variable argument lists with `stdarg.h`.
+
+### C - Printf (Group Project) 🖨️
+Re-implementing the `printf` function.
+
+### C - Singly linked lists 📋
+Implementing and using singly linked lists.
+
+### C - Doubly linked lists 🔄
+Extending linked list concepts to doubly linked lists.
+
+### C - Bit manipulation ⚙️
+Using bitwise operators for efficient data handling.
+
+### C - File I/O 📂
+Reading and writing files using system calls (`open`, `read`, `write`).
+
+### C - Binary Trees 🌲
+Exploring binary trees and traversal algorithms.
+
+### C - Sorting algorithms & Big O 📊
+Implementing sorting algorithms and analyzing their complexity.
+
+### C - Simple Shell (Group Project) 🖥️
+Developing a simple UNIX shell as a collaborative project.
 
 ---
 
@@ -72,6 +136,3 @@ This repository is for educational purposes as part of the Holberton School curr
 
 ## 👤 Author
 👨‍💻 **[P-Y74](https://github.com/P-Y74)** - Holberton School Student
-
-
-
