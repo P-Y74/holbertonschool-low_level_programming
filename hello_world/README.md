@@ -133,8 +133,6 @@ To run the compiled program:
 | `4-puts.c` | Prints `"Programming is like building a multilingual puzzle"` using `puts`. |
 | `5-printf.c` | Prints `"with proper grammar, but the outcome is a piece of art,"` using `printf`. |
 | `6-size.c` | Prints the size of various data types in C. |
-| `100-intel` | Generates the assembly code (Intel syntax) of a C file. |
-| `101-quote.c` | Prints `"and that piece of art is useful" - Dora Korpar, 2015-10-19"` to `stderr`. |
 
 ---
 
