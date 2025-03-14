@@ -8,11 +8,11 @@ This project continues to explore the C programming language, with a focus on **
 ## 📚 Resources
 To successfully complete this project, make sure to read and watch the following materials:
 
-- [Nested while loops](https://intranet.alxswe.com/concepts/62)
-- [C - Functions](https://intranet.alxswe.com/concepts/50)
-- [Learning to Program in C (Part 06)](https://www.youtube.com/watch?v=Gt_iJuov4-o) *(stop at 14:00)*
-- [What is the purpose of a function prototype?](https://www.geeksforgeeks.org/function-prototype-in-c/)
-- [C - Header Files](https://www.gnu.org/software/gnu-c-manual/gnu-c-manual.html#Header-Files) *(stop before the “Once-Only Headers” paragraph)*
+- Nested while loops
+- C - Functions
+- Learning to Program in C (Part 06)
+- What is the purpose of a function prototype?
+- C - Header Files
 
 ---
 
