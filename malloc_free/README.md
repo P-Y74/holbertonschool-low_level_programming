@@ -12,8 +12,8 @@ This project focuses on dynamic memory allocation in C using `malloc` and `free`
 ## 📚 Resources
 To successfully complete this project, make sure to read or watch the following materials:
 
-- [0x0a - malloc & free - quick overview.pdf](https://intranet.holbertonschool.com)
-- [Dynamic memory allocation in C - malloc calloc realloc free (stop at 6:50)](https://www.youtube.com/watch?v=xjVFb2ftA_M)
+- 0x0a - malloc & free - quick overview.pdf (Holberton School property)
+- [Dynamic memory allocation in C - malloc calloc realloc free (stop at 6:50)](https://www.youtube.com/watch?v=xDVC3wKjS64)
 
 **man** or **help**:
   - `malloc`
