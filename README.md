@@ -118,5 +118,5 @@ All code follows the **Betty Coding Style**, ensuring readability and consistenc
 This repository is for educational purposes as part of the Holberton School curriculum.
 
 ## Author
-**[Your Name]** - Holberton School Student
+**P-Y74** - Holberton School Student
 
