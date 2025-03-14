@@ -112,7 +112,7 @@ Developing a simple UNIX shell as a collaborative project.
 ---
 
 ## ⚙️ How to Use This Repository
-Each directory contains:
+Each directory contains:  
 ✅ **C source files** implementing different concepts.  
 ✅ **Header files (`.h`)** defining function prototypes.  
 ✅ **Readme files** explaining the purpose of each project.  
