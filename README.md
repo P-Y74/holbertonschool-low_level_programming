@@ -12,101 +12,101 @@ Welcome to the **holbertonschool-low_level_programming** repository! This reposi
 ## 📖 Table of Contents
 
 📌 **Fundamentals**
-- [C - Hello, World](#c---hello-world-)
-- [C - Variables, if, else, while](#c---variables-if-else-while-)
-- [C - Functions, nested loops](#c---functions-nested-loops-)
-- [C - More functions, more nested loops](#c---more-functions-more-nested-loops-)
+- [C - Hello, World](#c---hello-world)
+- [C - Variables, if, else, while](#c---variables-if-else-while)
+- [C - Functions, nested loops](#c---functions-nested-loops)
+- [C - More functions, more nested loops](#c---more-functions-more-nested-loops)
 
 📌 **Pointers & Memory Management**
-- [C - Pointers, arrays and strings](#c---pointers-arrays-and-strings-)
-- [C - More pointers, arrays and strings](#c---more-pointers-arrays-and-strings-)
-- [C - Even more pointers, arrays and strings](#c---even-more-pointers-arrays-and-strings-)
-- [C - Recursion](#c---recursion-)
-- [C - argc, argv](#c---argc-argv-)
-- [C - Malloc, free](#c---malloc-free-)
-- [C - More malloc, free](#c---more-malloc-free-)
+- [C - Pointers, arrays and strings](#c---pointers-arrays-and-strings)
+- [C - More pointers, arrays and strings](#c---more-pointers-arrays-and-strings)
+- [C - Even more pointers, arrays and strings](#c---even-more-pointers-arrays-and-strings)
+- [C - Recursion](#c---recursion)
+- [C - argc, argv](#c---argc-argv)
+- [C - Malloc, free](#c---malloc-free)
+- [C - More malloc, free](#c---more-malloc-free)
 
 📌 **Advanced Topics**
-- [C - Structures, typedef](#c---structures-typedef-)
-- [C - Function pointers](#c---function-pointers-)
-- [C - Variadic functions](#c---variadic-functions-)
-- [C - Printf (Group Project)](#c---printf-group-project-)
-- [C - Singly linked lists](#c---singly-linked-lists-)
-- [C - Doubly linked lists](#c---doubly-linked-lists-)
-- [C - Bit manipulation](#c---bit-manipulation-)
-- [C - File I/O](#c---file-io-)
-- [C - Binary Trees](#c---binary-trees-)
-- [C - Sorting algorithms & Big O](#c---sorting-algorithms--big-o-)
-- [C - Simple Shell (Group Project)](#c---simple-shell-group-project-)
+- [C - Structures, typedef](#c---structures-typedef)
+- [C - Function pointers](#c---function-pointers)
+- [C - Variadic functions](#c---variadic-functions)
+- [C - Printf (Group Project)](#c---printf-group-project)
+- [C - Singly linked lists](#c---singly-linked-lists)
+- [C - Doubly linked lists](#c---doubly-linked-lists)
+- [C - Bit manipulation](#c---bit-manipulation)
+- [C - File I/O](#c---file-io)
+- [C - Binary Trees](#c---binary-trees)
+- [C - Sorting algorithms & Big O](#c---sorting-algorithms--big-o)
+- [C - Simple Shell (Group Project)](#c---simple-shell-group-project)
 
 ---
 
 ## 🔍 Concepts Overview
 
-### C - Hello, World 🌍
+### C - Hello, World
 Introduction to C programming, compilation process, and first program.
 
-### C - Variables, if, else, while 🔢
+### C - Variables, if, else, while
 Using variables, conditional statements, and loops.
 
-### C - Functions, nested loops 🔄
+### C - Functions, nested loops
 Understanding functions, their scope, and nested loops.
 
-### C - More functions, more nested loops 🔂
+### C - More functions, more nested loops
 Advanced function usage and deeper loop nesting.
 
-### C - Pointers, arrays and strings 🎯
+### C - Pointers, arrays and strings
 Basics of pointers, arrays, and string manipulation.
 
-### C - More pointers, arrays and strings 🔗
+### C - More pointers, arrays and strings
 Pointer arithmetic, multi-dimensional arrays, and memory management.
 
-### C - Even more pointers, arrays and strings 🚀
+### C - Even more pointers, arrays and strings
 Complex pointer operations and string handling techniques.
 
-### C - Recursion 🔁
+### C - Recursion
 Implementing recursive functions and understanding stack behavior.
 
-### C - argc, argv 📜
+### C - argc, argv
 Handling command-line arguments.
 
-### C - Malloc, free 💾
+### C - Malloc, free
 Dynamic memory allocation and deallocation.
 
-### C - More malloc, free ⚡
+### C - More malloc, free
 Advanced dynamic memory handling techniques.
 
-### C - Structures, typedef 🏗️
+### C - Structures, typedef
 Defining and using custom data types with `struct` and `typedef`.
 
-### C - Function pointers 🎛️
+### C - Function pointers
 Understanding and using pointers to functions.
 
-### C - Variadic functions 🎤
+### C - Variadic functions
 Handling variable argument lists with `stdarg.h`.
 
-### C - Printf (Group Project) 🖨️
+### C - Printf (Group Project)
 Re-implementing the `printf` function.
 
-### C - Singly linked lists 📋
+### C - Singly linked lists
 Implementing and using singly linked lists.
 
-### C - Doubly linked lists 🔄
+### C - Doubly linked lists
 Extending linked list concepts to doubly linked lists.
 
-### C - Bit manipulation ⚙️
+### C - Bit manipulation
 Using bitwise operators for efficient data handling.
 
-### C - File I/O 📂
+### C - File I/O
 Reading and writing files using system calls (`open`, `read`, `write`).
 
-### C - Binary Trees 🌲
+### C - Binary Trees
 Exploring binary trees and traversal algorithms.
 
-### C - Sorting algorithms & Big O 📊
+### C - Sorting algorithms & Big O
 Implementing sorting algorithms and analyzing their complexity.
 
-### C - Simple Shell (Group Project) 🖥️
+### C - Simple Shell (Group Project)
 Developing a simple UNIX shell as a collaborative project.
 
 ---
@@ -136,5 +136,4 @@ This repository is for educational purposes as part of the Holberton School curr
 
 ## 👤 Author
 👨‍💻 **[P-Y74](https://github.com/P-Y74)** - Holberton School Student
-
 
