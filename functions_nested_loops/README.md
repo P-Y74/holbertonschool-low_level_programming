@@ -25,13 +25,13 @@ Read or watch the following materials to understand the key concepts:
 By the end of this project, you should be able to explain the following concepts:
 
 ### General
-- What **nested loops** are and how to use them.
-- What a **function** is and how to use functions.
-- The difference between a **declaration** and a **definition** of a function.
-- What a **prototype** is.
-- The **scope of variables** in C.
-- The purpose and use of **header files** with `#include`.
-- How to use the **gcc flags**: `-Wall -Werror -pedantic -Wextra -std=gnu89`.
+✅ What **nested loops** are and how to use them.
+✅ What a **function** is and how to use functions.
+✅ The difference between a **declaration** and a **definition** of a function.
+✅ What a **prototype** is.
+✅ The **scope of variables** in C.
+✅ The purpose and use of **header files** with `#include`.
+✅ How to use the **gcc flags**: `-Wall -Werror -pedantic -Wextra -std=gnu89`.
 
 ---
 
