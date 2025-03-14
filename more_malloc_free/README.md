@@ -12,7 +12,7 @@ This project extends your knowledge of dynamic memory allocation in C. You will 
 ## 📚 Resources
 To successfully complete this project, make sure to read or watch the following materials:
 
-- [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/should-i-cast-the-result-of-malloc-in-c)
+- [Do I cast the result of malloc?](https://stackoverflow.com/questions/605845/should-i-cast-the-result-of-malloc-in-c)  
 **man** or **help**:
   - `exit (3)`
   - `calloc`
