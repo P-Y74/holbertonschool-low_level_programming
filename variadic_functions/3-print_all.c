@@ -63,7 +63,7 @@ void print_all(const char *const format, ...)
 	    {'i', iType},
 	    {'f', fType},
 	    {'s', sType},
-	    {0, NULL}};
+	    {'\0', NULL}};
 
 	int i = 0, j;
 	char *sep = "";
@@ -74,7 +74,7 @@ void print_all(const char *const format, ...)
 
 	while (format[i] && format != NULL)
 	{
-		while (arr[j].type != 0)
+		while (arr[j].type != '\0')
 		{
 			if (arr[j].type == format[i])
 			{
