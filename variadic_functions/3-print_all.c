@@ -40,8 +40,7 @@ void sType(va_list *args)
 
 	if (str == NULL)
 	{
-		printf("(nil)");
-		return;
+		str = "(nil)";
 	}
 	printf("%s", str);
 }
@@ -63,22 +62,18 @@ void print_all(const char *const format, ...)
 	    {'i', iType},
 	    {'f', fType},
 	    {'s', sType},
-	    {'\0', NULL}};
+	    {'\0', '\0'}};
 
-	int i = 0, j;
+	int i = 0, j = 0;
 	char *sep = "";
 
 	va_list args;
 
 	va_start(args, format);
 
-	if (format == NULL)
+	while (format && format[i])
 	{
-		return;
-	}
-
-	while (format[i] && format != NULL)
-	{
+		j = 0;
 		while (arr[j].type != '\0')
 		{
 			if (arr[j].type == format[i])
@@ -86,10 +81,10 @@ void print_all(const char *const format, ...)
 				printf("%s", sep);
 				arr[j].print_func(&args);
 				sep = ", ";
+				break;
 			}
 			j++;
 		}
-		j = 0;
 		i++;
 	}
 
