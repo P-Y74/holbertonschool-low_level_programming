@@ -4,11 +4,11 @@
 #include "main.h"
 
 /**
- * _strlen - Calcule la longueur d'une chaîne de caractères.
+ * _strlen - calculates the length of a string.
  *
- * @s: La chaîne dont on souhaite connaître la longueur.
+ * @s: the string whose length needs to be calculated.
  *
- * Return: La longueur de la chaîne.
+ * Return: the length of the string.
  */
 int _strlen(char *s)
 {
@@ -22,12 +22,12 @@ int _strlen(char *s)
 }
 
 /**
- * create_file - crée un fichier avec du contenu.
+ * create_file - creates a file and writes text to it.
  *
- * @filename: le nom du fichier à créer.
- * @text_content: le contenu à écrire dans le fichier.
+ * @filename: the name of the file to be created.
+ * @text_content: the content to be written to the file.
  *
- * Return: 1 sur succès, -1 sur échec.
+ * Return: 1 on success, -1 on failure.
  */
 int create_file(const char *filename, char *text_content)
 {
