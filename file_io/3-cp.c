@@ -52,7 +52,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 			exit(99);
 		}
 	}
-	if (read_bytes == -1)
+	if (read_bytes < 0)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		close_file(fd_from);
