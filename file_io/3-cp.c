@@ -23,7 +23,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	createFile = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (createFile == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't write to %s", file_to);
+		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		close(createFile);
 		exit(99); }
 	while ((readBytes = read(openFile, buffer, 1024)) > 0)
