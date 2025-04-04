@@ -18,18 +18,18 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	openFile = open(file_from, O_RDONLY);
 	if (openFile == -1)
 	{
-		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98); }
 	createFile = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (createFile == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-		close(createFile);
+		close(openFile);
 		exit(99); }
 	while ((readBytes = read(openFile, buffer, 1024)) > 0)
 	{
 		writeFile = write(createFile, buffer, readBytes);
-		if (writeFile == -1)
+		if (writeFile == -1 || writeFile != readBytes)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			close(openFile);
@@ -50,8 +50,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createFile);
 		exit(100); }
-	close(openFile);
-	close(createFile); }
+}
 
 /**
  * main - Copies the content of a file to another file.
