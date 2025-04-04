@@ -29,37 +29,39 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	char buffer[1024];
 
 	fd_from = open(file_from, O_RDONLY);
-	if (!file_from || fd_from == -1)
+	if (fd_from == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-		exit(98); }
+		exit(98);
+	}
 	fd_to = open(file_to, O_CREAT | O_WRONLY | O_TRUNC, 0664);
 	if (fd_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		close_file(fd_from);
-		exit(99); }
-	while (1)
+		exit(99);
+	}
+	while ((read_bytes = read(fd_from, buffer, sizeof(buffer))) > 0)
 	{
-		read_bytes = read(fd_from, buffer, 1024);
-		if (read_bytes == -1)
-		{
-			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-			close_file(fd_from);
-			close_file(fd_to);
-			exit(98); }
-		if (read_bytes == 0)
-			break;
 		write_bytes = write(fd_to, buffer, read_bytes);
-		if (write_bytes == -1 || write_bytes != read_bytes)
+		if (write_bytes != read_bytes)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			close_file(fd_from);
 			close_file(fd_to);
-			exit(99); }
+			exit(99);
+		}
+	}
+	if (read_bytes == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+		close_file(fd_from);
+		close_file(fd_to);
+		exit(98);
 	}
 	close_file(fd_from);
-	close_file(fd_to); }
+	close_file(fd_to);
+}
 /**
  * main - Copies the content of a file to another file.
  * @argc: The number of arguments passed to the program.
