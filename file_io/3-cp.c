@@ -34,8 +34,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 			close(openFile);
 			close(createFile);
-			exit(99);
-		}
+			exit(99); }
 	}
 	if (readBytes == -1)
 	{
@@ -51,7 +50,8 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createFile);
 		exit(100); }
-}
+	close(openFile);
+	close(createFile); }
 
 /**
  * main - Copies the content of a file to another file.
