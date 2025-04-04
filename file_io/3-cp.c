@@ -39,8 +39,17 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
 		close_file(fd_from);
 		exit(99); }
-	while ((read_bytes = read(fd_from, buffer, 1024)) > 0)
+	while (1)
 	{
+		read_bytes = read(fd_from, buffer, 1024);
+		if (read_bytes == -1)
+		{
+			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
+			close_file(fd_from);
+			close_file(fd_to);
+			exit(98); }
+		if (read_bytes == 0)
+			break;
 		write_bytes = write(fd_to, buffer, read_bytes);
 		if (write_bytes == -1 || write_bytes != read_bytes)
 		{
@@ -49,12 +58,6 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 			close_file(fd_to);
 			exit(99); }
 	}
-	if (read_bytes == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-		close_file(fd_from);
-		close_file(fd_to);
-		exit(98); }
 	close_file(fd_from);
 	close_file(fd_to); }
 /**
