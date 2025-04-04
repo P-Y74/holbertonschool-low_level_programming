@@ -5,51 +5,59 @@
 #include <fcntl.h>
 
 /**
+ * close_file - Closes a file descriptor and handles errors
+ * @fd: The file descriptor to close
+ */
+void close_file(int fd)
+{
+	if (close(fd) == -1)
+	{
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
+		exit(100);
+	}
+}
+
+/**
  * copy_content_file_to_another_file - Copies content from one file to another.
  * @file_from: The source file name.
  * @file_to: The destination file name.
  */
 void copy_content_file_to_another_file(const char *file_from, char *file_to)
 {
-	int openFile, createFile;
-	ssize_t writeFile, readBytes;
+	int fd_from, fd_to;
+	ssize_t read_bytes, write_bytes;
 	char buffer[1024];
 
-	openFile = open(file_from, O_RDONLY);
-	if (openFile == -1)
+	fd_from = open(file_from, O_RDONLY);
+	if (fd_from == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98); }
-	createFile = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	if (createFile == -1)
+	fd_to = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
+	if (fd_to == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-		close(openFile);
+		close_file(fd_from);
 		exit(99); }
-	while ((readBytes = read(openFile, buffer, 1024)) > 0)
+	while ((read_bytes = read(fd_from, buffer, 1024)) > 0)
 	{
-		writeFile = write(createFile, buffer, readBytes);
-		if (writeFile == -1 || writeFile != readBytes)
+		write_bytes = write(fd_to, buffer, read_bytes);
+		if (write_bytes == -1 || write_bytes != read_bytes)
 		{
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", file_to);
-			close(openFile);
-			close(createFile);
+			close_file(fd_from);
+			close_file(fd_to);
 			exit(99); }
 	}
-	if (readBytes == -1)
+	if (read_bytes == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
-		close(openFile);
-		close(createFile);
+		close_file(fd_from);
+		close_file(fd_to);
 		exit(98); }
-	if (close(openFile) == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", openFile);
-		exit(100); }
-	if (close(createFile) == -1)
-	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createFile);
-		exit(100); }
+
+	close_file(fd_from);
+	close_file(fd_to);
 }
 
 /**
@@ -57,11 +65,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
  * @argc: The number of arguments passed to the program.
  * @argv: An array of strings representing the command-line arguments.
  *
- * Return: Always 0 on success, or one of the following error codes:
- *         - 97: Incorrect number of arguments.
- *         - 98: Error reading from the source file.
- *         - 99: Error writing to the destination file.
- *         - 100: Error closing a file descriptor.
+ * Return: Always 0 on success
  */
 int main(int argc, char *argv[])
 {
