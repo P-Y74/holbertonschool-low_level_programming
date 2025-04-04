@@ -29,7 +29,7 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 	char buffer[1024];
 
 	fd_from = open(file_from, O_RDONLY);
-	if (fd_from == -1)
+	if (!file_from || fd_from == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", file_from);
 		exit(98); }
