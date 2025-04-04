@@ -11,15 +11,16 @@
  */
 void copy_content_file_to_another_file(const char *file_from, char *file_to)
 {
-	ssize_t openFile, createFile, writeFile, readBytes;
+	int openFile, createFile;
+	ssize_t writeFile, readBytes;
 	char buffer[1024];
 
 	openFile = open(file_from, O_RDONLY);
-	createFile = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
-	if (file_from == NULL || openFile == -1)
+	if (openFile == -1)
 	{
 		dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
 		exit(98); }
+	createFile = open(file_to, O_WRONLY | O_CREAT | O_TRUNC, 0664);
 	if (createFile == -1)
 	{
 		dprintf(STDERR_FILENO, "Error: Can't write to %s", file_to);
@@ -44,11 +45,11 @@ void copy_content_file_to_another_file(const char *file_from, char *file_to)
 		exit(98); }
 	if (close(openFile) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %ld\n", openFile);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", openFile);
 		exit(100); }
 	if (close(createFile) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %ld\n", createFile);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", createFile);
 		exit(100); }
 }
 
