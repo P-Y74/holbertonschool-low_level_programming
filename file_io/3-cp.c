@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <fcntl.h>
 #include <stdarg.h>
+#include <fcntl.h>
 
 /**
  * copy_content_file_to_another_file - Copies content from one file to another.
